@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkBanner CookieYes</title>
+    <link rel="stylesheet" href="indexfile.css">
+
+</head>
+
+<body>
+    <div class="banner">
+        <div class="CookieYes-consent-button-wrapper">
+            <div class="CookieYes-consent-button">
+                <img src="./public/CookieSymbol.svg" alt="">
+            </div>
+        </div>
+        <div class="CookieYesBanner">
+            <div class="BannerBackground" id="BannerBackgrounds">
+                <div class="value-close">
+                    <div class="BannerTiltle">We value your privacy</div>
+                    <button id="ckyBtnClose2" class="cky-btn-close" aria-label="Close"><img src="close.svg"
+                            alt="cky-close-icon"></button>
+                </div>
+                <div class="button-para-wrapp">
+                <div class="banner-para">
+                    <p>We use cookies to enhance your browsing experience, serve personalized ads or content, and
+                        analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <a href="#"
+                            style="color: white;">Read More</a> </p>
+
+                    <div class="banner-button-wrapper">
+                        <button id="customize-button">Customize</button>
+                        <button id="reject-button">Reject All</button>
+                        <button id="accept-button">Accept All</button>
+                    </div>
+                </div></div>
+
+            </div>
+            <div class="CookieYes-popup-banner" id="pop-ups">
+                <div class="head-close">
+                    <div class="popup-main-head">Customize Consent Preferences</div>
+                    <button id="ckyBtnClose2" class="cky-btn-close" aria-label="Close"><img src="close.svg"
+                            alt="cky-close-icon"></button>
+                </div>
+
+                <div class="banner-paras">
+                    <p>We use cookies to help you navigate efficiently and perform certain functions. You will find
+                        detailed
+                        information about all cookies under each consent category below.
+                        The cookies that are categorized as “Necessary” are stored on your browser as they are essential
+                        for
+                        enabling the basic functionalities of the site.</p>
+
+                    <p>We also use third-party cookies that help us analyze how you use this website, store your
+                        preferences, and provide the content and advertisements that are relevant to you. These cookies
+                        will
+                        only be stored in your browser with your prior consent.</p>
+                    <p class="last-para">You can choose to enable or disable some or all of these cookies but disabling
+                        some of them may
+                        affect your browsing experience. <a href="#">Show More</a>
+                </div>
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron1"></div>
+                            <div class="sub-para-head">Necessary Cookies</div>
+                            <div class="active-head">Always Active</div>
+                        </div>
+
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Necessary cookies are required to enable the basic features of this site, such as
+                                providing secure log-in or adjusting your consent preferences. These cookies do not
+                                store any personally identifiable data.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-data">
+                    <div class="cookiyes-data-table1" id="table1">
+                        <div class="cookieyes-body">
+                            <div class="cookie-table">
+                                <ul class="cookie-table-content">
+                                    <li>
+                                        <div>cookie</div>
+                                        <div>cky-active-check</div>
+                                    </li>
+                                    <li>
+                                        <div>Duration</div>
+                                        <div>1 day</div>
+                                    </li>
+                                    <li>
+                                        <div>Description</div>
+                                        <div>Unique identifier for visitors used by CookieYes with respect to the
+                                            consent.Unique identifier for visitors used by CookieYes with respect to the
+                                            consent</div>
+                                    </li>
+                                </ul>
+                                <ul class="cookie-table-content">
+                                    <li>
+                                        <div>cookie</div>
+                                        <div>cky-active-check</div>
+                                    </li>
+                                    <li>
+                                        <div>Duration</div>
+                                        <div>1 day</div>
+                                    </li>
+                                    <li>
+                                        <div>Description</div>
+                                        <div>Unique identifier for visitors used by CookieYes with respect to the
+                                            consent.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron2"></div>
+                            <div class="sub-para-head">Functional Cookies</div>
+                            <div class="cky-switch">
+                                <input type="checkbox" id="ckySwitchFunctional">
+                            </div>
+                        </div>
+
+                        <!-- <div class="active-head">Always Active</div> -->
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Functional cookies help perform certain functionalities like sharing the content of the
+                                website on social media platforms, collecting feedback, and other third-party features.
+                            </p>
+                        </div>
+                        <div class="cky-accordion-body">
+                            <div class="cookie-table">
+                                <p class="cky-empty-cookies-text" id="no-table">No cookies to display.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron3"></div>
+                            <div class="sub-para-head">Analytics Cookies</div>
+                            <div class="cky-switch">
+                                <input type="checkbox" id="ckySwitchFunctional">
+                            </div>
+                        </div>
+
+                        <!-- <div class="active-head">Always Active</div> -->
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Analytical cookies are used to understand how visitors interact with the website. These
+                                cookies help provide information on metrics such as the number of visitors, bounce rate,
+                                traffic source, etc.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="table-data">
+                        <div class="cookiyes-data-table1" id="table2">
+                            <div class="cookieyes-body">
+                                <div class="cookie-table">
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.Unique identifier for visitors used by CookieYes with respect to
+                                                the
+                                                consent</div>
+                                        </li>
+                                    </ul>
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron4"></div>
+                            <div class="sub-para-head">Advertisement Cookies</div>
+                            <div class="cky-switch">
+                                <input type="checkbox" id="ckySwitchFunctional">
+                            </div>
+                        </div>
+
+                        <!-- <div class="active-head">Always Active</div> -->
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Advertisement cookies are used to provide visitors with customized advertisements based
+                                on the pages you visited previously and to analyze the effectiveness of the ad
+                                campaigns.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="table-data">
+                        <div class="cookiyes-data-table1" id="table3">
+                            <div class="cookieyes-body">
+                                <div class="cookie-table">
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.Unique identifier for visitors used by CookieYes with respect to
+                                                the
+                                                consent</div>
+                                        </li>
+                                    </ul>
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron5"></div>
+                            <div class="sub-para-head">Performance Cookies</div>
+                            <div class="cky-switch">
+                                <input type="checkbox" id="ckySwitchFunctional">
+                            </div>
+                        </div>
+
+                        <!-- <div class="active-head">Always Active</div> -->
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Performance cookies are used to understand and analyze the key performance indexes of the
+                                website which helps in delivering a better user experience for the visitors.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="table-data">
+                        <div class="cookiyes-data-table1" id="table4">
+                            <div class="cookieyes-body">
+                                <div class="cookie-table">
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.Unique identifier for visitors used by CookieYes with respect to
+                                                the
+                                                consent</div>
+                                        </li>
+                                    </ul>
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron6"></div>
+                            <div class="sub-para-head">Advertisement Cookies</div>
+                            <div class="cky-switch">
+                                <input type="checkbox" id="ckySwitchFunctional">
+                            </div>
+                        </div>
+
+                        <!-- <div class="active-head">Always Active</div> -->
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Advertisement cookies are used to provide visitors with customized advertisements based
+                                on the pages you visited previously and to analyze the effectiveness of the ad
+                                campaigns.</p>
+                        </div>
+
+                    </div>
+                    <div class="table-data">
+                        <div class="cookiyes-data-table1" id="table5">
+                            <div class="cookieyes-body">
+                                <div class="cookie-table">
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.Unique identifier for visitors used by CookieYes with respect to
+                                                the
+                                                consent</div>
+                                        </li>
+                                    </ul>
+                                    <ul class="cookie-table-content">
+                                        <li>
+                                            <div>cookie</div>
+                                            <div>cky-active-check</div>
+                                        </li>
+                                        <li>
+                                            <div>Duration</div>
+                                            <div>1 day</div>
+                                        </li>
+                                        <li>
+                                            <div>Description</div>
+                                            <div>Unique identifier for visitors used by CookieYes with respect to the
+                                                consent.</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="banner-sub-paras">
+                    <div class="sub-para-1">
+                        <div class="first-section">
+                            <div class="chevron" id="chevron7"></div>
+                            <div class="sub-para-head">Others</div>
+                            <div class="cky-switch">
+                                <input type="checkbox" id="ckySwitchFunctional">
+                            </div>
+                        </div>
+
+                        <!-- <div class="active-head">Always Active</div> -->
+                        <div class="sub-para-des" id="sub-para-id">
+                            <p>Other uncategorized cookies are those that are being analyzed and have not been
+                                classified into a category as yet.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="three-buttons">
+                        <div class="first-row">
+                            <div class="reject-button">Reject All</div>
+                            <div class="save-button">Save My Preferences</div>
+                        </div>
+                        <div class="accept-button">Accept All</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
