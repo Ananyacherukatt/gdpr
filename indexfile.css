@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background: beige;
+  font-family: "Inter", sans-serif;
 }
 
 .CookieYes-consent-button {
@@ -23,7 +24,7 @@ body {
 }
 .BannerBackground {
   background: #0056a7;
-  padding: 1rem 3rem;
+  padding: 1rem 5rem;
 }
 .BannerTiltle {
   color: white;
@@ -44,10 +45,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 15px;
-    position: absolute;
-    top: 3rem;
-    left: 61rem;
-    gap: 1rem;
+    
+}
+.banner-button-wrapper > button {
+margin-left: 5px;
 }
 
 #customize-button {
@@ -93,7 +94,7 @@ body {
   display: none;
 
   position: absolute;
-  right: -400px;
+  /* right: -400px; */
 }
 .CookieYes-popup-banner.active {
   display: block;
@@ -126,7 +127,7 @@ body {
 .first-section {
   display: flex;
   flex-direction: row;
-  position: relative;
+  /* position: relative; */
   align-items: center;
 }
 .sub-para-head {
@@ -303,10 +304,35 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    line-height: 24px;
+    /* line-height: 24px; */
     font-weight: 400;
 }
 .cookie-tables {
   /* background-color:  aliceblue;
   padding: 10px; */
+}
+@media (max-width: 425px) {
+  .banner-button-wrapper {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+    gap: 10px;
+
+  }
+  .button-para-wrapp {
+    flex-direction: column;
+  }
+  .BannerBackground{
+    padding: 1rem 1rem;
+  }
+  .banner-para{
+    width: auto;
+  }
+  .banner-button-wrapper > button {
+    margin: 0;
+    width: 100%;
+  }
+  .CookieYes-popup-banner{
+    width: 100%;
+  }
 }
